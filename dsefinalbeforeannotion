@@ -14,7 +14,82 @@
 			</sourceDesc>
 		</fileDesc>
 		<xenoData><rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:as="http://www.w3.org/ns/activitystreams#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:geo="http://www.geonames.org/ontology#" xmlns:oa="http://www.w3.org/ns/oa#" xmlns:schema="http://schema.org/" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
-</rdf:RDF></xenoData></teiHeader>
+
+<rdf:Description rdf:datatype="http://www.w3.org/TR/json-ld/"><![CDATA[
+{
+	"@context": {
+		"dcterms:created": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:created"
+		},
+		"dcterms:issued": {
+			"@type": "xsd:dateTime",
+			"@id": "dcterms:issued"
+		},
+		"oa:motivatedBy": {
+			"@type": "oa:Motivation"
+		},
+		"@language": "en",
+		"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+		"as": "http://www.w3.org/ns/activitystreams#",
+		"cwrc": "http://sparql.cwrc.ca/ontologies/cwrc#",
+		"dc": "http://purl.org/dc/elements/1.1/",
+		"dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"geo": "http://www.geonames.org/ontology#",
+		"oa": "http://www.w3.org/ns/oa#",
+		"schema": "http://schema.org/",
+		"xsd": "http://www.w3.org/2001/XMLSchema#"
+	},
+	"@id": "https://raw.githubusercontent.com/Gronacia/DSE/master/dsefinalbeforeannotion?note_annotation_20230425130559342",
+	"@type": "oa:Annotation",
+	"dcterms:created": "2023-04-25T17:05:59.342Z",
+	"dcterms:modified": "2023-04-25T17:05:59.342Z",
+	"dcterms:creator": {
+		"@id": "https://github.com/Gronacia",
+		"@type": [
+			"cwrc:NaturalPerson",
+			"schema:Person"
+		],
+		"cwrc:hasName": null,
+		"foaf:nick": "Gronacia"
+	},
+	"oa:motivatedBy": "oa:describing",
+	"oa:hasTarget": {
+		"@id": "https://raw.githubusercontent.com/Gronacia/DSE/master/dsefinalbeforeannotion?note_annotation_20230425130559342#Target",
+		"@type": "oa:SpecificResource",
+		"oa:hasSource": {
+			"@id": "https://raw.githubusercontent.com/Gronacia/DSE/master/dsefinalbeforeannotion",
+			"@type": "dctypes:Text",
+			"dc:format": "text/xml"
+		},
+		"oa:renderedVia": {
+			"@id": "https://cwrc-writer.cwrc.ca",
+			"@type": "as:Application",
+			"rdfs:label": "CWRC Writer",
+			"schema:softwareVersion": "8.2.0"
+		},
+		"oa:hasSelector": {
+			"@id": "https://raw.githubusercontent.com/Gronacia/DSE/master/dsefinalbeforeannotion?note_annotation_20230425130559342#Selector",
+			"@type": "oa:XPathSelector",
+			"rdf:value": "TEI/text/body/div/lg/l/note"
+		}
+	},
+	"oa:hasBody": {
+		"@type": "cwrc:NoteScholarly",
+		"dc:format": "text/plain",
+		"rdf:value": "Note for Ambrose"
+	},
+	"as:generator": {
+		"@id": "https://cwrc-writer.cwrc.ca",
+		"@type": "as:Application",
+		"rdfs:label": "CWRC Writer",
+		"schema:url": "https://cwrc-writer.cwrc.ca",
+		"schema:softwareVersion": "8.2.0"
+	}
+}
+]]></rdf:Description></rdf:RDF></xenoData></teiHeader>
 	<text>
 		<body>
 			<div type="poem">
@@ -22,7 +97,7 @@
 					<title level="a">The Ṭurra (Commentary) of Ghadīja Bint al-ʿĀqil al-Daymāniyya (d. 1250/1834-5) on al-Sullam al-murawnaq (The Adorned Ladder) of ʿAbd al-Raḥmān al-Akhḍarī (919–53/1513–46 or 919–83/1513–75) on the art of logic. </title><title type="subtitle">Translation of Matn and Ṭurra by David Owen</title>
 				</head>
 				<lg>
-					<l>Praise be to God: He who has brought forth The ends of thinking for minds of wit</l><l>And lowered, from the sky of intellect, Each veil, each cloud of ignorance.</l>
+					<l>Praise be to God: He<note type="scholarNote">Note for Ambrose</note> who has brought forth The ends of thinking for minds of wit</l><l>And lowered, from the sky of intellect, Each veil, each cloud of ignorance.</l>
 				<l>So there appear to them ‘the Suns’ of Knowing; Those secluded they see unveiled.</l><l>We thank Him, Exalted be He, for granting Favor to believe and to submit,</l><l>He distinguished us with the best He sent, The blessing of one who attained every lofty rank:</l><l>Muḥammad, Lord of every leader followed, The Arabian, the Hashimite, the Chosen.</l><l>The prayer of God upon him—so long as mind endures, To plunge into the ocean of intelligibles—</l><l>And upon the House and Companions rightly guided; These are like the stars in guidance.</l><l>Now to begin, logic is to minds just so Related as grammar is to language;</l><l>From the wiles of error it guards one’s thoughts, Removes the blinds from precision in understanding.</l><l>Here then from logic’s roots are rules, That gather benefits from the arts therein:</l><l>I have called this ‘the resplendent ladder’ To ascend by it to the discipline of logic.</l><l>To God, I ask that this work prove pure--for His sake, most noble--and not defective.</l><l>May it profit the beginner; thereby, May he be guided to the longer treatises.</l><l>Now the dispute about the permissibility of its study Is—with logic—by way of three opinions.</l><l>For Ibn al-Salāḥ and al-Nawāwī have forbidden it,And some say there must be knowledge of it.</l><l>Yet the established and sound opinionPermits it to a well-formed disposition—</l><l>Whosoever follows Sunna and the Book— So he be led by logic to the truth.</l><l>The grasping of a singular is known as ‘conception’ And the grasping of a relation is called ‘assent’.</l><l>Grant the former priority in regard to its position,Since it is prior through the stamp of nature.</l><l>The ‘speculative’ is that which demands reflection,The opposite of which is the evidently ‘necessary’;</l><l>That through which conception is attained,Is called a definitional statement—be prayerful.</l><l>That through which one reaches an assent:As ‘argument’ this is known, by those with reason.</l><l>An utterance’s signifying that with which it accords in full They call ‘signification by correspondence’</l><l>And in part is ‘inclusion’; and that which is entailed,Is ‘concomitance’ so long as it rationally follows.</l><l>Any expression that is used to denote meaning / Is either compound or simple.</l><l>A ‘compound’ is that the part of which signifies / A part of its meaning; otherwise, it’s ‘simple.’</l><l>A simple expression can be one of two kinds: / Either universal or particular, in every instance.</l><l>A universal expresses a commonality, / Such as ‘lion,’ and its opposite is the particular.</l><l>The first, ‘essential’ if intrinsic, / You must render, and ‘accidental’ if external.</l><l>The universals are five, no less: / Genus, difference, accident, species, and property.</l><l>There are only three sorts of genus: / The proximate genus, the remote genus, and the intermediate.</l><l>The relationship of utterances to meaningsIs strictly by way of five divisions: </l><l>Univocity, variation, mere difference,Homonymy, and its opposite, synonymy.</l><l>Utterance is either directive or assertiveAnd directive utterances are of three sorts:</l><l>From one in authority, a command; and from an inferior, a plea;And among equals, a request.</l><l>The universal is our judgment of a set of things,Such as, ‘All of that has not occurred.’</l><l>Whenever the judgment is said of every individual,Then that it is a universal proposition, is evident. </l><l>The judgment of some individuals, then, is a particular proposition,And knowledge of the part’s apparent.</l><l>A definitional statement is triply classified:Into definition, description, and the lexical.</l><l>For definition is composed of genus and difference,And description is composed of genus and property together.</l><l>An incomplete definition occurs when a difference is employed, Or the remote genus instead of the proximate.</l><l>An incomplete description occurs when only a property is employed,Or if the description includes the remote genus.</l><l>The ‘lexical’ as known among logicians, Is obtained by substituting for one word a better known synonym.</l><l>A condition of each is that it be exclusiveAnd inclusive; fully apparent, not more removed from understanding.</l><l>Equivalents and metaphors cannot be used in definitional statements, Without contextual indication through which they are preserved.</l><l>Definitional statements cannot be circular, and neither Can they employ homonyms devoid of contextual indication.</l><l>Per the logicians, among the prohibitions, isThe inclusion of judgments inside of definitions.</l><l>The use of ‘or’ in definitions is forbidden,But is, however, permissible in descriptions. Know what they relate. </l><l>Whatever admits of truth intrinsically,they hold to be a proposition and an assertion.</l><l>Propositions are, they say, of two kinds:Conditional and assertoric. And the second </l><l>Is general or individual. The firstIs either quantified or indefinite.</l><l>The quantifier is considered universal or particular; Its kinds are four, wherever they occur. </l><l>Either with ‘all’ or ‘some’ or ‘no- Thing,’ or ‘some … is not’ or the like, evidently;</l><l>All the propositions are affirmative or negative, And thus they come to eight.</l><l>The first term is the subject in the categorical proposition, And the second is the predicate, likewise.</l><l>If the proposition is rendered with a nexus- Then it is conditional and is divided,</l><l>Likewise, into conjunctive conditional And, similarly, disjunctive conditional.</l><l>Their two parts are ‘antecedent’ and ‘consequent.’As for explaining the conjunctive, </l><l>It is that which requires the concomitance of both partsAnd the disjunctive, without a doubt,</l><l>Requires exclusiveness between the two; Its types are three, as you should know. </l><l>Mutually exclusive, or mutually exhaustive, or both:Know that this is the true disjunctive, the most specific. </l><l>Contradiction is the divergence of two propositions in Quality, when the truth of one is followed. </l><l>If the proposition is individual or unquantified Its contradiction is by way of quality, which you change.</l><l>If the proposition is quantifiedThen contradict it with the contrary of the quantifier mentioned.</l><l>If it is a universal affirmative,Then its contradictory is a particular negative.</l><l>If it is a universal negative,Then its contradictory is a particular affirmative.</l><l>Conversion consists of the reversal of the two parts of the proposition,While its truth and quality remain,</l><l>… and quantity (too), except for the universal affirmative,Whose converse is the particular affirmative.</l><l>Conversion holds except for The two inferiors therein: reckon well. </l><l>Of the same sort is the unquantified negative, Because it is effectively particular.</l><l>Conversion pertains to what is ordered (thus) by natureAnd not to what is ordered through convention. </l><l>Indeed, the syllogism is formed from propositions Entailing in themselves some other statement.</l><l>For logicians then the syllogism is of two kinds,Among which is what is called ‘combinatorial,’</l><l>That is, which indicates the conclusion In (its) force and is specific to the categorical.</l><l>And if you wish to arrange them, arrange The premises as is required.</l><l>Arrange the premises, and discern Their being valid from invalid, by testing,</l><l>For indeed what follows from the premises,Occurs according to the premises. </l><l>That which is, among the premises, the minor Must be subsumed under the major.</l><l>The minor term is in the minor premiseAnd the major term in the major premise</l><l>The minor term is subsumed andThe middle's dropped in the process of concluding.</l><l>The figure, so these people hold, Is said of two propositions of a syllogism</l><l>Unless quantifiers are considered,Since that is referred to by its mood.</l><l>The premises [together] have justFour figures, [which] depend on the middle term.</l><l>[When] the middle is predicate in the minor and subject in the major,This is called and known as the first figure.</l><l>[When] the middle is the predicate in both, [this] is known as the second,And the middle’s placement as subject in both is familiar as the third.</l><l>The fourth of the figures is the converse of the first;And they are ranked according to their perfection.</l><l>However much is deviation from this form of orderIs badly formed. The first [of the figures] then </l><l>Requires the affirmative in its minor,And that the major manifest as universal.</l><l>The second [figure has the premises] differ in quality, and hereA universal major is another stipulation.</l><l>The third requires an affirmative in the minors of both,And that one of them manifest as universal,</l><l>The fourth is never a combination of both the lessersSave in a form which is evident.</l><l>The minor of both is affirmative particular;The major of both is negative universal.</l><l>So concluding in the first, there are four;Just so, the second and the third have six.</l><l>The fourth in five has always been conclusive,Beyond what I have mentioned, nothing will be conclusive.</l><l>And the conclusion follows then the lowest ofThose premises, and in this way, it is known. </l><l>These figures here are for the categorical, specifically, and not for the conditional.</l><l>And the elision of some premises Or the conclusion, results from [prior] understanding. </l><l>And ending in necessity is the Entailment of a regress or a circle.</l><l>One kind [of syllogism] is called the reduplicative--Known [also] as the conditional, no doubt at all–</l><l>Which indicates the conclusionOr its contradictory in fact, not potentially,</l><l>For if the conditional possesses a conjunction‘Positing’ the antecedent results in ‘positing’ the consequent,</l><l>And the denial of the consequent is the denial of the antecedent, while notEntailing the reverse, as was made manifest.</l><l>And if it is disjunctive the affirmation of the oneResults in the negation of the other, and vice versa. </l><l>And that [is] in strict [disjunction]. Whereas if The "combination" is precluded, then with the affirmation of the one, is known</l><l>The negation of the other, but not vice versa. And if The "void" is precluded, the opposite is the case.</l><l>And there is a kind [of syllogism] they call compoundOn account of its being composed of multiple proofs.</l><l>So compose it, if you wish to learn it:Turn a conclusion into a premise </l><l>Which entails, from its combination with another [premise],A conclusion, and so on and so on ... </l><l>Whether the conclusions contained are continuous,Or discontinuous, both [types] are equal </l><l>And if by a particular is inferred a universal,According to them this is known as induction</l><l>The opposite of that is called the syllogismWhich I’ve presented now, so ‘Verify!’</l><l>Whenever one particular is adduced concerning another particular On account of some common [feature], an analogy has been made.</l><l>But productive of probative certaintyIs neither inductive inference nor analogy.</l><l>A proof is revelatory or rational;Of this the kinds are five and evident:</l><l>Rhetoric and poetry and demonstration and dialecticAnd the fifth, sophistics; may you reach your aim!</l><l>The most eminent of these is demonstration, composed Of premises that are linked with certainty.</l><l>From axioms and observations, From experiential data and reports multiply transmitted</l><l>And [premises known] through intuition and the sensesFor these are the whole of the certain premises</l><l>And as for the premises' signifying The conclusion, disagreement has arisen:</l><l>[Is it] rational? Habitual? Generated?Or necessitated? And the first of these is the most supported.</l><l>Error in demonstration, wherever it is found,Is in the matter or form. As for the former:</l><l>It is found in verbal expression, as with homonymy, But also in treating as a synonym, that which contains disparity. </l><l>In meanings as well, due to the confusion of a false premise,With a true one, so understand the address.</l><l>[Or,] for instance, by treating the accidental as essential,Or by giving one of the premises in the conclusion,</l><l>Or by saying of the genus what pertains to the species,Or treating as certain what is other than certain.</l><l>The second includes deviation from the figuresAnd the absence of a condition of completeness in the conclusion.</l><l>This is the fullness of the goal intendedBy the compendia of praiseworthy logic. </l><l>At its completion now, thanks be to the Lord of the dawn,Is what we sought from the discipline of Logic.</l><l>His lowly servant set it to verse, in need ofThe mercy of the Master, mighty and all-powerful.</l><l>[This] al-Akhdari, worshiper of the All-Merciful,The one who entreats from his all-beneficent Lord </l><l>A forgiveness encompassing misdeedsAnd removing what covers over hearts.</l><l>And we ask that He reward us with the height of paradise For indeed He is the most Generous of those who grant favor.</l><l>Be you, my brother, compassionate to the beginner, And be of good counsel in repairing deficiency.</l><l>And repair deficiency upon reflectionAnd even if [the error] is basic, hold off from alteration</l><l>For it is said, How many a denouncer of correctness,On account of defective understanding!</l><l>And say to one dismissive of my aimThat leniency is the beginner's obligatory right </l><l>And for a youth twenty-one years of age,That leniency is acceptable and preferable. </l><l>Especially in the tenth century,Containing barbarity and corruption and communal strife</l><l>At the beginning of Muharram isOur composition, a versification in the rajaz meter,</l><l>From the year of one and fortyAfter nine centuries [from the hijra]</l><l>Whereupon, prayers and peace sempiternalUpon the Messenger of God, the best of guides,</l><l>And upon his family and trustworthy companions,Travelers on the ways of salvation,</l><l>So long as the sun of day shall split the constellationsAnd the full moon rise in darkness, shining.</l></lg>
 				
 			</div>
